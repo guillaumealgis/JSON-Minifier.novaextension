@@ -1,0 +1,27 @@
+{
+  "identifier": "com.guillaumealgis.JSONMinifier",
+  "name": "JSON Minifier",
+  "organization": "Guillaume Algis",
+  "description": "Minify JSON data with a command.",
+  "license": "MIT",
+  "version": "1.0",
+  "categories": ["commands"],
+  
+  "homepage": "https://github.com/guillaumealgis/JSON-Minifier.novaextension",
+  "bugs": "https://github.com/guillaumealgis/JSON-Minifier.novaextension/issues",
+
+  "main": "main.js",
+
+  "activationEvents": ["onLanguage:json"],
+
+  "entitlements": {},
+
+  "commands": {
+    "editor": [
+      {
+        "title": "Minify JSON",
+        "command": "json-minifier.minifyJSON"
+      }
+    ]
+  }
+}
