@@ -4,9 +4,9 @@
   "organization": "Guillaume Algis",
   "description": "Minify JSON data with a command.",
   "license": "MIT",
-  "version": "1.0",
+  "version": "1.1.0",
   "categories": ["commands"],
-  
+
   "homepage": "https://github.com/guillaumealgis/JSON-Minifier.novaextension",
   "bugs": "https://github.com/guillaumealgis/JSON-Minifier.novaextension/issues",
 
